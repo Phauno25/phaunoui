@@ -1,0 +1,82 @@
+:root {
+  /* =============================================
+    =            Colors            =
+    ============================================= */
+
+  /* Body  */
+
+  --phauno-body-text-color: #{$dark};
+  --phauno-body-bg-color: #{$white};
+
+  /* Button */
+
+  --phauno-btn-primary-color: #{$white};
+  --phauno-btn-primary-bg: #{$blue};
+  --phauno-btn-primary-bg-hover: #{$blue};
+
+  /* Form */
+
+  --phauno-form-color: #{$blue};
+  --phauno-form-bg: #{$white};
+  --phauno-form-bg-hover: #{$dark-light};
+  --phauno-form-error-color: #{$red};
+  --phauno-form-error-border-color: #{$red};
+  --phauno-form-error-border-focus-color: #{$red};
+  
+
+  /* AppBar */
+  --phauno-appbar-color: #{$dark};
+  --phauno-appbar-bg: #{$blue};
+  --phauno-appbar-elevation: #{$shadow-1};
+
+  /* =============================================
+  =            Typography            =
+  ============================================= */
+
+  /* Font Families */
+  --phauno-h1-font-family: #{$roboto};
+  --phauno-h2-font-family: #{$roboto};
+  --phauno-h3-font-family: #{$roboto};
+  --phauno-h4-font-family: #{$roboto};
+  --phauno-h5-font-family: #{$roboto};
+  --phauno-h6-font-family: #{$roboto};
+  --phauno-body-font-family: #{$roboto};
+
+  /* Font Sizes */
+  --phauno-body-font-size: #{$fs-sm};
+  --phauno-h1-font-size: #{$h-1};
+  --phauno-h2-font-size: #{$h-2};
+  --phauno-h3-font-size: #{$h-3};
+  --phauno-h4-font-size: #{$h-4};
+  --phauno-h5-font-size: #{$h-5};
+  --phauno-h6-font-size: #{$h-6};
+
+  /* Font Weights */
+  --phauno-body-font-weigth: #{$fw-normal};
+  --phauno-h1-font-weigth: #{$fw-black};
+  --phauno-h2-font-weigth: #{$fw-semibold};
+  --phauno-h3-font-weigth: #{$fw-bold};
+  --phauno-h4-font-weigth: #{$fw-medium};
+  --phauno-h5-font-weigth: #{$fw-normal};
+  --phauno-h6-font-weigth: #{$fw-ligth};
+
+  /* Line Heights */
+  --phauno-body-base-line-heigth: #{$lh-body-base};
+  --phauno-body-sm-line-heigth: #{$lh-body-sm};
+  --phauno-h1-line-heigth: #{$lh-h1};
+  --phauno-h2-line-heigth: #{$lh-h2};
+  --phauno-h3-line-heigth: #{$lh-h3};
+  --phauno-h4-line-heigth: #{$lh-h4};
+  --phauno-h5-line-heigth: #{$lh-h5};
+  --phauno-h6-line-heigth: #{$lh-h6};
+
+  /* Letter Spacings */
+  --phauno-body-base-letter-spacing: #{$ls-body-base};
+  --phauno-body-sm-letter-spacing: #{$ls-body-sm};
+  --phauno-h1-letter-spacing: #{$ls-h1};
+  --phauno-h2-letter-spacing: #{$ls-h2};
+  --phauno-h3-letter-spacing: #{$ls-h3};
+  --phauno-h4-letter-spacing: #{$ls-h4};
+  --phauno-h5-letter-spacing: #{$ls-h5};
+  --phauno-h6-letter-spacing: #{$ls-h6};
+}

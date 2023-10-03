@@ -1,0 +1,161 @@
+/* =============================================
+=            Colors            =
+============================================= */
+/* Neutral Colors */
+/* Utility Colors */
+/* =============================================
+      =            Typography            =
+============================================= */
+/* Font Families */
+/* Font Sizes */
+/* Heading Font Sizes */
+/* Font Weights */
+/* Line Heights */
+/* Letter Spacing */
+/* =============================================
+    =            Break Points            =
+============================================= */
+/* =============================================
+=            Box-Shadows  (Elevation)            =
+============================================= */
+/* =============================================
+=            Spacing            =
+============================================= */
+/* =============================================
+=            ImageSizes            =
+============================================= */
+/* =============================================
+=            Global Text Colors            =
+============================================= */
+/* =====  End of Global Text Colors  ====== */
+/* =============================================
+=            Buttons            =
+============================================= */
+/* =====  End of Buttons  ====== */
+/* =============================================
+=            Forms            =
+============================================= */
+/* =====  End of Forms  ====== */
+/* =============================================
+=            AppBar            =
+============================================= */
+/* =====  End of AppBar  ====== */
+/*=============================================
+=            Body font family            =
+=============================================*/
+/*=====  End of Body font family  ======*/
+/* =============================================
+=            Body  font sizes            =
+============================================= */
+/* =====  End of Body font sizes  ====== */
+/* =============================================
+=            Body Line Heights            =
+============================================= */
+/* =====  End of Body Line Heights  ====== */
+/* =============================================
+=            Body Letter Spacing            =
+============================================= */
+/* =====  End of Body Letter Spacing  ====== */
+/* =============================================
+=            Headings font Sizes            =
+============================================= */
+/* =====  End of Heading Text Sizes  ====== */
+/* =============================================
+=            Headings Font Weigth            =
+============================================= */
+/* =====  End of Heading Font Weigth  ====== */
+/* =============================================
+=            Headings Font Family            =
+============================================= */
+/* =====  End of Heading Font Weigth  ====== */
+/* =============================================
+=            Headings Line Heigth            =
+============================================= */
+/* =====  End of Heading Line Heigth  ====== */
+/* =============================================
+=            Headings Letter Spacing            =
+============================================= */
+/* =====  End of Headings Letter Spacing  ====== */
+/* =============================================
+=            Colors            =
+============================================= */
+/* Neutral Colors */
+/* Utility Colors */
+/* =============================================
+      =            Typography            =
+============================================= */
+/* Font Families */
+/* Font Sizes */
+/* Heading Font Sizes */
+/* Font Weights */
+/* Line Heights */
+/* Letter Spacing */
+/* =============================================
+    =            Break Points            =
+============================================= */
+/* =============================================
+=            Box-Shadows  (Elevation)            =
+============================================= */
+/* =============================================
+=            Spacing            =
+============================================= */
+/* =============================================
+=            ImageSizes            =
+============================================= */
+.phaunoui-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.phaunoui-select__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border: 1px solid var(--phauno-form-border-color, #1d1f22);
+  background: var(--phauno-form-bg, #fff);
+  font-family: var(--phauno-body-font-family, "Roboto", "HelveticaNeue", "Helvetica", "Arial", sans-serif);
+  cursor: pointer;
+}
+
+.phaunoui-select__icon {
+  transition: all 250ms ease;
+}
+
+.phaunoui-select__icon--open {
+  transform: rotate(180deg);
+}
+
+.phaunoui-select__icon--close {
+  transform: rotate(0deg);
+}
+
+.phaunoui-select__overlay {
+  padding: 0;
+  padding: 0;
+  border: 1px solid var(--phauno-form-border-color, #1d1f22);
+  background: var(--phauno-form-bg, #fff);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+}
+
+.phaunoui-select__option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.75rem;
+  box-sizing: border-box;
+}
+
+.phaunoui-select__option--highlighted {
+  background: var(--phauno-form-bg-hover, #767380);
+}
+
+.phaunoui-select__option--selected {
+  background: #00ae5c;
+}

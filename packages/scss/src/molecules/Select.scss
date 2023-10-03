@@ -1,0 +1,55 @@
+@import "foundation/foundation";
+
+.phaunoui-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include padding("xs");
+    border: 1px solid $form-border-color;
+    background: $form-bg;
+    font-family: $body-font-family;
+    cursor: pointer;
+  }
+
+  &__icon {
+    transition: all 250ms ease;
+
+    &--open {
+      transform: rotate(180deg);
+    }
+    &--close {
+      transform: rotate(0deg);
+    }
+  }
+
+  &__overlay {
+    @include padding("none");
+    @include margin("none");
+    border: 1px solid $form-border-color;
+    background: $form-bg;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    list-style-type: none;
+  }
+  &__option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    @include padding("xs");
+    box-sizing: border-box;
+  }
+  &__option--highlighted {
+    background: $form-bg-hover;
+  }
+  &__option--selected {
+    background: $green;
+  }
+}

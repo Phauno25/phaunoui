@@ -1,0 +1,46 @@
+@import './variables';
+
+/* =============================================
+=            Global Text Colors            =
+============================================= */
+
+$body-text-color: var(--phauno-body-text-color, $dark) !default;
+$body-bg-color: var(--phauno-body-bg-color, $white) !default;
+
+/* =====  End of Global Text Colors  ====== */
+
+/* =============================================
+=            Buttons            =
+============================================= */
+
+$btn-primary-color: var(--phauno-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--phauno-btn-primary-bg, $blue) !default;
+$btn-primary-bg-hover: var(--phauno-btn-primary-bg-hover, $blue-light);
+
+/* =====  End of Buttons  ====== */
+
+/* =============================================
+=            Forms            =
+============================================= */
+$form-border-color: var(--phauno-form-border-color, $dark) !default;
+$form-color: var(--phauno-form-color, $dark) !default;
+$form-bg: var(--phauno-form-bg, $white) !default;
+$form-bg-hover: var(--phauno-form-bg-hover, $dark-light) !default;
+$form-error-color: var(--phauno-form-error-color, $red) !default;
+$form-error-border-color: var(--phauno-form-error-border-color, $red) !default;
+$form-error-border-focus-color: var(
+  --phauno-form-error-border-focus-color,
+  $red
+) !default;
+
+/* =====  End of Forms  ====== */
+
+/* =============================================
+=            AppBar            =
+============================================= */
+
+$appbar-color: var(--phauno-appbar-color, $dark) !default;
+$appbar-bg: var(--phauno-appbar-bg, $blue) !default;
+$appbar-elevation: var(--phauno-appbar-elevation, $shadow-1) !default;
+
+/* =====  End of AppBar  ====== */

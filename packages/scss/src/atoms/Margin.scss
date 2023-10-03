@@ -1,0 +1,15 @@
+@import "foundation/foundation";
+
+$sides: "top", "left", "rigth", "bottom";
+
+@each $space, $value in $spacing {
+  .phaunoui-margin-#{$space} {
+    margin: #{$value};
+
+    @each $side in $sides {
+      .phaunoui-margin-#{$side}-#{$space} {
+        margin: #{$value};
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+
+/*=============================================
+=            Body font family            =
+=============================================*/
+
+$body-font-family: var(--phauno-body-font-family,$roboto) !default;
+
+/*=====  End of Body font family  ======*/
+
+
+
+/* =============================================
+=            Body  font sizes            =
+============================================= */
+
+$body-font-size: var(--phauno-body-font-size, $fs-sm) !default;
+$body-font-weigth: var(--phauno-body-font-weigth, $fw-normal) !default;
+
+/* =====  End of Body font sizes  ====== */
+
+/* =============================================
+=            Body Line Heights            =
+============================================= */
+
+$body-base-line-heigth: var(
+  --phauno-body-base-line-heigth,
+  $lh-body-base
+) !default;
+$body-sm-line-heigth: var(--phauno-body-sm-line-heigth, $lh-body-sm) !default;
+
+/* =====  End of Body Line Heights  ====== */
+
+/* =============================================
+=            Body Letter Spacing            =
+============================================= */
+$body-base-letter-spacing: var(
+  --phauno-body-base-letter-spacing,
+  $ls-body-base
+) !default;
+$body-sm-letter-spacing: var(
+  --phauno-body-sm-letter-spacing,
+  $ls-body-sm
+) !default;
+
+/* =====  End of Body Letter Spacing  ====== */
+
+/* =============================================
+=            Headings font Sizes            =
+============================================= */
+
+$h-1-font-size: var(--phauno-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--phauno-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--phauno-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--phauno-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--phauno-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--phauno-h6-font-size, $h-6) !default;
+
+/* =====  End of Heading Text Sizes  ====== */
+
+/* =============================================
+=            Headings Font Weigth            =
+============================================= */
+$h-1-font-weigth: var(--phauno-h1-font-weigth, $fw-black) !default;
+$h-2-font-weigth: var(--phauno-h2-font-weigth, $fw-semibold) !default;
+$h-3-font-weigth: var(--phauno-h3-font-weigth, $fw-bold) !default;
+$h-4-font-weigth: var(--phauno-h4-font-weigth, $fw-medium) !default;
+$h-5-font-weigth: var(--phauno-h5-font-weigth, $fw-normal) !default;
+$h-6-font-weigth: var(--phauno-h6-font-weigth, $fw-ligth) !default;
+
+/* =====  End of Heading Font Weigth  ====== */
+
+/* =============================================
+=            Headings Font Family            =
+============================================= */
+$h-1-font-family: var(--phauno-h1-font-family, $roboto) !default;
+$h-2-font-family: var(--phauno-h2-font-family, $roboto) !default;
+$h-3-font-family: var(--phauno-h3-font-family, $roboto) !default;
+$h-4-font-family: var(--phauno-h4-font-family, $roboto) !default;
+$h-5-font-family: var(--phauno-h5-font-family, $roboto) !default;
+$h-6-font-family: var(--phauno-h6-font-family, $roboto) !default;
+
+/* =====  End of Heading Font Weigth  ====== */
+
+/* =============================================
+=            Headings Line Heigth            =
+============================================= */
+
+$h-1-line-heigth: var(--phauno-h1-line-heigth, $lh-h1) !default;
+$h-2-line-heigth: var(--phauno-h2-line-heigth, $lh-h2) !default;
+$h-3-line-heigth: var(--phauno-h3-line-heigth, $lh-h3) !default;
+$h-4-line-heigth: var(--phauno-h4-line-heigth, $lh-h4) !default;
+$h-5-line-heigth: var(--phauno-h5-line-heigth, $lh-h5) !default;
+$h-6-line-heigth: var(--phauno-h6-line-heigth, $lh-h6) !default;
+
+/* =====  End of Heading Line Heigth  ====== */
+
+/* =============================================
+=            Headings Letter Spacing            =
+============================================= */
+$h-1-letter-spacing: var(--phauno-h1-letter-spacing, $ls-h1) !default;
+$h-2-letter-spacing: var(--phauno-h2-letter-spacing, $ls-h2) !default;
+$h-3-letter-spacing: var(--phauno-h3-letter-spacing, $ls-h3) !default;
+$h-4-letter-spacing: var(--phauno-h4-letter-spacing, $ls-h4) !default;
+$h-5-letter-spacing: var(--phauno-h5-letter-spacing, $ls-h5) !default;
+$h-6-letter-spacing: var(--phauno-h6-letter-spacing, $ls-h1) !default;
+
+/* =====  End of Headings Letter Spacing  ====== */

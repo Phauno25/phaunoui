@@ -1,0 +1,24 @@
+@import "foundation/foundation";
+
+@each $size, $value in $spacing{
+    .phauno-width-#{$size}{
+        width: $value;
+    }
+    .phauno-heigth-#{$size}{
+        height: $value;
+    }
+}
+
+@each $size, $value in $imageSizes{
+    .phauno-image-width-#{$size}{
+        width: $value;
+    }
+    .phauno--image-heigth-#{$size}{
+        height: $value;
+    }
+}
+@each $size, $value in $fs {
+    .phaunoui-text-#{$size} {
+        font-size: $value;
+    }
+}
